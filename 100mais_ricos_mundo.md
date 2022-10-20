@@ -7,8 +7,8 @@ Segundo a edição 2022 da Forbes (revista estadunidense de negócios e economia
 
 #### **1.1 Objetivo**
 Este trabalho tem por objetivo explorar e responder às seguintes questões:
-* A soma do patrimônio líquido das 100 pessoas;
-* A média de idade entre eles;
+* Soma do patrimônio líquido das 100 pessoas;
+* Média de idade entre eles;
 * Quantidade de bilionários por gênero;
 * Qual o país que mais e menos possui bilionários, separados por gênero; 
 * Quantidade distinta de empresas e seguimentos;
@@ -114,7 +114,7 @@ O modelo para a base do dashboard foi baixado no site da comunidade do Power BI 
 ABA 1: Pessoa - Patrimônio  
 
 * Filtro com os países distintos e o gênero;
-* KPI’s apresentando a soma dos patrimônios líquidos e a média da idade das pessoas;
+* Cartões apresentando a soma dos patrimônios líquidos e a média da idade das pessoas;
 * Gráfico de  pizza apresentando a quantidade de bilionários do gênero feminino e masculino;
 * Gráfico de barra apresentando o nome das 100 pessoas e seu patrimônio líquido;
 * Inserção do logo da Coder House.
@@ -127,7 +127,7 @@ ABA 2: Pessoa - Empresa
 * Inserção do logo da Coder House.
 * Gráfico de seguimento de empresa, apresentando os tipos de seguimentos e  quantidade de pessoas para cada um;
 * Tabela listando o nome das empresas e seus respectivos proprietários
-* KPI’s apresentando a quantidade distinta de empresas e seguimentos das empresas. 
+* Cartões apresentando a quantidade distinta de empresas e seguimentos das empresas. 
 
 ![aba3-powerbi](https://user-images.githubusercontent.com/112497138/193327919-59eb385d-81f2-42b7-bd32-28c34004566f.jpeg)
 
