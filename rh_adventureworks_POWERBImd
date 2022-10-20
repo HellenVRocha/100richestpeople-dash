@@ -16,10 +16,8 @@ O dashboard é destinado aos líderes de Recursos Humanos da AdventureWorks que 
 
 **Aba 2. Salários.**
 * Soma total
-* Cargo com salário máximo
-* Cargo com salário mínimo
-* Salário por cargo, ordenado do mais alto para o mais baixo
-* Número de funcionários por faixa salarial
+* Média total
+* Número de funcionários por cargo e faixa salarial
 * Salário médio por gerência.
 
 
@@ -61,6 +59,11 @@ O modelo para a base do dashboard foi baixado no site da comunidade do Power BI 
 * Gráfico de barras empilhadas apresentando a quantidade de empregados por turno;
 * Gráfico de linha demonstrando o número de contratações por ano.
 
-![aba1 adventure](https://user-images.githubusercontent.com/112497138/196554295-62fa954b-6675-4279-b182-7244c4b3d6fb.jpeg)
+![aba1 adventure](https://user-images.githubusercontent.com/112497138/197027992-a3e77dcb-5e0b-4f99-bf2a-e9418e2c324b.jpeg)
+
 
 **ABA 2: Salários**
+
+![ABA2-ADVETURE](https://user-images.githubusercontent.com/112497138/197030923-24c9ad6b-5096-4463-974a-98d4265c9fb3.jpeg)
+
+
