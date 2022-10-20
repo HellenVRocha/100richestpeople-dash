@@ -1,4 +1,4 @@
-## *Trabalho realizado para conclusão do curso de **Data Analytics** pela CoderHouse em Novembro/2022*
+## *Trabalho realizado para conclusão do curso de **Data Analytics** pela CoderHouse em Novembro/2022. Abordando conhecimento em SQL Server e Power BI*
 ---
 
 ### **1.INTRODUÇÃO**
