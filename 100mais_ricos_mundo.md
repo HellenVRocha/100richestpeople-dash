@@ -137,7 +137,8 @@ ABA 3: Pessoa - País
 * Tabela listando os países e quantidade de pessoas ricas por gênero;
 * Gráfico de mapa apresentando os continentes e demarcando os países com mais bilionários.
 
-![aba3-powerbi](https://user-images.githubusercontent.com/112497138/193328174-78859b25-3d73-45fc-9897-d23ea9ebc55a.jpeg)
+![aba3-100ricos](https://user-images.githubusercontent.com/112497138/197346884-59d47182-3f17-4214-8fc5-857a1b1539d4.jpeg)
+
 
 
 
