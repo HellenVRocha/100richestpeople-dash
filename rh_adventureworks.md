@@ -139,23 +139,28 @@ O modelo para a base do dashboard foi baixado no site da comunidade do Power BI 
 **ABA 1: Funcionários**
 
 * Filtro com o ano, gênero e turno;
-* KPI apresentando a soma total de funcionários
+* Cartão apresentando a soma total de funcionários;
+* Tabela apresentando a quantidade de funcionários que trabalham na parte da noite e/ou deveriam receber adicional noturno;
 * Gráfico de barras empilhadas apresentando a quantidade de funcionários por turno;
 * Gráfico de  pizza apresentando a quantidade de funcionários por gênero;
 * Gráfico de barras empilhadas apresentando a quantidade de funcionários por gerência 
 * Gráfico de linha demonstrando o número de contratações por ano.
 
-![aba1 adventure](https://user-images.githubusercontent.com/112497138/197027992-a3e77dcb-5e0b-4f99-bf2a-e9418e2c324b.jpeg)
+![1ABADVENTURE](https://user-images.githubusercontent.com/112497138/198400787-53401e5a-4a91-4c92-af92-68714c616dc0.jpeg)
+
 
 
 **ABA 2: Salários**
 
 * Filtro com o ano, gênero e turno;;
-* Cartões apresentando soma e média de salários.
+* Cartão apresentando soma total dos salários;
+* Cartão apresentando soma total dos salários do período matutino;
+* Cartão apresentando soma total dos salários do período vespertino;
+* Cartão apresentando soma total dos salários do período noturno;
 * Gráfico de barras apresentando o salário médio por gerência
 * Tabela listando a média salarial e quantidade de funcionários por departamento;
 
 
-![ABA2-ADVETURE](https://user-images.githubusercontent.com/112497138/197030923-24c9ad6b-5096-4463-974a-98d4265c9fb3.jpeg)
+![2ABAADVENTURE](https://user-images.githubusercontent.com/112497138/198400805-10daa8e4-5439-4253-bbda-5db0e662baa5.jpeg)
 
 
