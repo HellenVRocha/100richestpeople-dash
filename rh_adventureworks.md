@@ -62,8 +62,8 @@ MedSalarioporGerencia =
 ```
 
 **Função SWICTH:**
-* Para a descrição dos meses por extenso, código : 
-`
+* Para obter a descrição dos meses por extenso, código : 
+```
 MESPOREXTENSO = SWITCH([MES], 
     1, "Janeiro", 
     2, "Fevereiro",
@@ -79,37 +79,40 @@ MESPOREXTENSO = SWITCH([MES],
     12, "Dezembro",
     "nao definido"
     )
-    `  
+ ``` 
     
-* Para ter a descrição dos meses por extenso, código:
+* Para obter a descrição dos meses por extenso, código:
 
- `
+```
 TURNOPOREXTENSO = SWITCH(
  'RH ADVENTUREWORKS'[TURNO],
 "Day","Dia",
 "Night","Noite",
 "Evening","Tarde"
 )
-`
+```
 
 **Função IF:**
 
 * Para enterdermos se aos funcionários deveriam receber adicional noturno ou não, código:
-`
+```
 Adicional Noturno = IF(
     'RH ADVENTUREWORKS'[TURNOPOREXTENSO]= 
     "Noite", "Deveria receber adicional noturno", "Não há necessidade de adicional"
-    )`
+    )
+```
 
 
 **Função CALCULATE:**
 
 * Para enterdermos se aos funcionários deveriam receber adicional noturno ou não, código:
-`MEDIA SALARIO FUNCIONARIOS DIURNOS = 
+```
+MEDIA SALARIO FUNCIONARIOS DIURNOS = 
 CALCULATE(AVERAGE('RH ADVENTUREWORKS'[SALARIO]),
 FILTER('RH ADVENTUREWORKS',
 'RH ADVENTUREWORKS'[TURNOPOREXTENSO] = "DIA")
-)`
+)
+```
    
 **DASHBOARD**
 
