@@ -51,7 +51,7 @@ MAX('RH ADVENTUREWORKS'[DATA_ENTRADA])
 * Cálculo da quantidade total de funcionários, código: 
 `TotalFunc = SUM('RH ADVENTUREWORKS'[N_ID])`
 
-**Função AVERAGE:**
+**Função AVERAGEX:**
 * Para o cálculo da média dos salários por Gerência, código: 
 ```
 MedSalarioporGerencia =
@@ -105,12 +105,30 @@ Adicional Noturno = IF(
 
 **Função CALCULATE:**
 
-* Para enterdermos se aos funcionários deveriam receber adicional noturno ou não, código:
+* Para analisarmos a média de salario por turno matutino, código:
 ```
-MEDIA SALARIO FUNCIONARIOS DIURNOS = 
+MEDIA SALARIO FUNCIONARIOS MATUTINO = 
 CALCULATE(AVERAGE('RH ADVENTUREWORKS'[SALARIO]),
 FILTER('RH ADVENTUREWORKS',
 'RH ADVENTUREWORKS'[TURNOPOREXTENSO] = "DIA")
+)
+```
+
+* Turno vespertino, código:
+```
+MEDIA SALARIO FUNCIONARIOS VESPERTINO = 
+CALCULATE(AVERAGE('RH ADVENTUREWORKS'[SALARIO]),
+FILTER('RH ADVENTUREWORKS',
+'RH ADVENTUREWORKS'[TURNOPOREXTENSO] = "TARDE")
+)
+```
+
+* Turno noturno, código:
+```
+MEDIA SALARIO FUNCIONARIOS NOTURNOS = 
+CALCULATE(AVERAGE('RH ADVENTUREWORKS'[SALARIO]),
+FILTER('RH ADVENTUREWORKS',
+'RH ADVENTUREWORKS'[TURNOPOREXTENSO] = "NOITE")
 )
 ```
    
