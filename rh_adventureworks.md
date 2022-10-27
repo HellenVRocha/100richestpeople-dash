@@ -31,20 +31,65 @@ Foi acrescentada a tabela Calendário, tendo como referência à tabela principa
 
 **Tabela CALENDAR:**
 * Para uma melhor análise dos dados em relação ao tempo, foi criada a tabela CALENDÁRIO, possuindo as colunas de data_entrada:
-`CALENDARIO = CALENDAR(MIN('RH ADVENTUREWORKS'[DATA_ENTRADA]),MAX('RH ADVENTUREWORKS'[DATA_ENTRADA]))`
+`CALENDARIO = 
+CALENDAR(
+MIN(
+'RH ADVENTUREWORKS'[DATA_ENTRADA]),
+MAX('RH ADVENTUREWORKS'[DATA_ENTRADA])
+)`
  
 * Ano: `ANO = YEAR(CALENDARIO[Date])`
 
 * E Mês: `MES = MONTH(CALENDARIO[Date])`
 
 **Função SUM:**
-* Para o cálculo da soma do salário dos funcionários, código: `SomaSalarios = SUM('RH ADVENTUREWORKS'[SALARIO])`
+* Para o cálculo da soma do salário dos funcionários, código: 
+`SomaSalarios = SUM('RH ADVENTUREWORKS'[SALARIO])`
  
-* Cálculo da quantidade total de funcionários, código: `TotalFunc = SUM('RH ADVENTUREWORKS'[N_ID])`
+* Cálculo da quantidade total de funcionários, código: 
+`TotalFunc = SUM('RH ADVENTUREWORKS'[N_ID])`
 
 **Função AVERAGE:**
-* Para o cálculo da média dos salários por Gerência, código: `MedSalarioporGerencia = AVERAGEX('RH ADVENTUREWORKS','RH ADVENTUREWORKS'[SALARIO])`
- 
+* Para o cálculo da média dos salários por Gerência, código: 
+`MedSalarioporGerencia =
+ AVERAGEX(
+'RH ADVENTUREWORKS',
+'RH ADVENTUREWORKS'[SALARIO]
+)`
+
+**Função SWICTH:**
+* Para o ter a descrição dos meses por extenso, código : 
+`MESPOREXTENSO = SWITCH([MES], 
+    1, "Janeiro", 
+    2, "Fevereiro",
+    3, "Marco", 
+    4, "Abril",
+    5, "Maio", 
+    6, "Junho",
+    7, "Julho",
+    8, "Agosto", 
+    9, "Setembro",
+     10, "Outubro", 
+    11, "Novembro",
+     12, "Dezembro",
+    "nao definido"
+    )`
+    
+ * Para o ter a descrição dos meses por extenso, código 
+ `TURNOPOREXTENSO = SWITCH(
+ 'RH ADVENTUREWORKS'[TURNO],
+"Day","Dia",
+"Night","Noite",
+"Evening","Tarde"
+)`
+
+**Função IF:**
+* Para enterdermos se aos funcionários deveriam receber adicional noturno ou não, código 
+`Adicional Noturno = IF(
+    'RH ADVENTUREWORKS'[TURNOPOREXTENSO]= 
+    "Noite", "Deveria receber adicional noturno", "Não há necessidade de adicional"
+    )`
+
    
 **DASHBOARD**
 
